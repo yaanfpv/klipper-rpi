@@ -4841,3 +4841,78 @@ fatal: repository 'https://github.com/yaanfpv@gmail.com/klipper-rpi.git/' not fo
 Command {update_git_script} finished
 
 Running Command {update_git_script}...:
+cp: cannot create regular file '/home/soham/printer_data/klipper-backup/rpi-klipper/printer_data/klipper-backup/.git/objects/pack/pack-bb61737bffe11bbe9bebde7f03c3bb991f38fd46.pack': Permission denied
+
+cp: cannot create regular file '/home/soham/printer_data/klipper-backup/rpi-klipper/printer_data/klipper-backup/.git/objects/pack/pack-bb61737bffe11bbe9bebde7f03c3bb991f38fd46.idx': Permission denied
+
+cp: cannot create regular file '/home/soham/printer_data/klipper-backup/rpi-klipper/printer_data/klipper-backup/.git/objects/8e/dff46adda583c247428128dd6a06b41479bd69': Permission denied
+cp: cannot create regular file '/home/soham/printer_data/klipper-backup/rpi-klipper/printer_data/klipper-backup/.git/objects/7f/1b1d31541d73c3e265710491d28ebcd3ae9804': Permission denied
+cp: cannot create regular file '/home/soham/printer_data/klipper-backup/rpi-klipper/printer_data/klipper-backup/.git/objects/b4/bdd08d2abaf945d503a01720a80dd4e47e87e7': Permission denied
+
+cp: cannot create regular file '/home/soham/printer_data/klipper-backup/rpi-klipper/printer_data/klipper-backup/.git/objects/89/5a92e3b7bfabdaf96303967dd06e873b170b80': Permission denied
+
+cp: cannot create regular file '/home/soham/printer_data/klipper-backup/rpi-klipper/printer_data/klipper-backup/.git/objects/7b/03dfcbffe1c6c779dbd32c711a03cb2a939ea2': Permission denied
+cp: cannot create regular file '/home/soham/printer_data/klipper-backup/rpi-klipper/printer_data/klipper-backup/.git/objects/37/0737f37b30e75ef7a75c94041947a896793960': Permission denied
+
+cp: cannot copy a directory, '/home/soham/printer_data/', into itself, '/home/soham/printer_data/klipper-backup/rpi-klipper/printer_data'
+
+Reinitialized existing Git repository in /home/soham/printer_data/klipper-backup/.git/
+
+WARNING: git-filter-branch has a glut of gotchas generating mangled history
+	 rewrites.  Hit Ctrl-C before proceeding to abort, then use an
+	 alternative filtering tool such as 'git filter-repo'
+	 (https://github.com/newren/git-filter-repo/) instead.  See the
+	 filter-branch manual page for more details; to squelch this warning,
+	 set FILTER_BRANCH_SQUELCH_WARNING=1.
+
+Proceeding with filter-branch...
+
+
+Cannot rewrite branches: You have unstaged changes.
+
+Additionally, your index contains uncommitted changes.
+
+[main eb86329] New backup from 13-12-23
+ 35 files changed, 107496 insertions(+)
+ create mode 120000 rpi-klipper/fluidd.cfg
+ create mode 100644 rpi-klipper/inputShaper.cfg
+ create mode 100644 rpi-klipper/moonraker.conf
+ create mode 100644 rpi-klipper/printer.cfg
+ create mode 100644 rpi-klipper/printer_data/.moonraker.uuid
+ create mode 100644 rpi-klipper/printer_data/backup/20231128T145624Z/config/moonraker.conf
+ create mode 120000 rpi-klipper/printer_data/comms/klippy.serial
+ create mode 100644 rpi-klipper/printer_data/config/.moonraker.conf.bkp
+ create mode 120000 rpi-klipper/printer_data/config/fluidd.cfg
+ create mode 100644 rpi-klipper/printer_data/config/inputShaper.cfg
+ create mode 100644 rpi-klipper/printer_data/config/moonraker.conf
+ create mode 100644 rpi-klipper/printer_data/config/printer.cfg
+ create mode 100644 rpi-klipper/printer_data/config/shell_command.cfg
+ create mode 100644 rpi-klipper/printer_data/database/data.mdb
+ create mode 100644 rpi-klipper/printer_data/database/lock.mdb
+ create mode 100644 rpi-klipper/printer_data/gcodes/EM_Cube_100Flow.gcode
+ create mode 100644 rpi-klipper/printer_data/gcodes/EM_Cube_110Flow.gcode
+ create mode 100644 rpi-klipper/printer_data/gcodes/EM_Cube_120Flow.gcode
+ create mode 100644 rpi-klipper/printer_data/gcodes/EM_Cube_130Flow.gcode
+ create mode 160000 rpi-klipper/printer_data/klipper-backup
+ create mode 120000 rpi-klipper/printer_data/logs/fluidd-access.log
+ create mode 120000 rpi-klipper/printer_data/logs/fluidd-error.log
+ create mode 100644 rpi-klipper/printer_data/logs/klippy.log
+ create mode 100644 rpi-klipper/printer_data/logs/klippy.log.2023-11-28
+ create mode 100644 rpi-klipper/printer_data/logs/klippy.log.2023-11-30
+ create mode 100644 rpi-klipper/printer_data/logs/klippy.log.2023-12-08
+ create mode 100644 rpi-klipper/printer_data/logs/mobileraker.log
+ create mode 100644 rpi-klipper/printer_data/logs/mobileraker.log.1
+ create mode 100644 rpi-klipper/printer_data/logs/mobileraker.log.2
+ create mode 100644 rpi-klipper/printer_data/logs/moonraker.log
+ create mode 100644 rpi-klipper/printer_data/logs/moonraker.log.2023-11-30
+ create mode 100644 rpi-klipper/printer_data/logs/moonraker.log.2023-12-08
+ create mode 100644 rpi-klipper/printer_data/moonraker.asvc
+ create mode 100644 rpi-klipper/printer_data/systemd/klipper.env
+ create mode 100644 rpi-klipper/printer_data/systemd/moonraker.env
+
+To https://github.com/yaanfpv/klipper-rpi.git
+   7694ff3..eb86329  main -> main
+
+Command {update_git_script} finished
+
+Running Command {update_git_script}...:
